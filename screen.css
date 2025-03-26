@@ -1,0 +1,175 @@
+
+@media screen and (max-width: 600px) {
+    *{
+      padding: 0px;
+      margin: 0px;
+  }
+  :root{
+    --blue:#2a2185;
+    --white:#fff;
+    --gray:#f5f5f5;
+    --block:#222;
+    --block:#999;
+    
+  }
+  body{
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--white);
+  }
+  .navigation{
+    display: none;
+  }
+  
+  .header{
+    position: relative;
+    left: 150px;
+    display: flex;
+    width: 200px;
+    background-color: var(--gray);
+    }
+    
+    .header img[src="./img/main.png"]{
+      position: relative;
+      right: 140px;
+    }
+    .header img[src="./img/search_24dp_434343_FILL0_wght400_GRAD0_opsz24.png"]{
+      position: relative;
+      right:20px;
+      top: 18px;
+      background-color: var(--gray);
+    }
+  
+   .header img[src="./img/messi.png"]{
+    position: relative;
+    left: 90px;
+    background-color: var(--gray);
+  } 
+  
+  .four-icons{
+    background-color: white;
+    width:500px;
+    overflow: hidden;
+    position: relative;
+    display:grid;
+  height: 600px;  
+  }
+  .views{
+    width: 300px;
+    background-color: var(--gray);
+    display: block;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid var(--block);
+  }
+  .four-icons img{
+    width: 100px;
+    height: 100px;
+  }
+  .views:hover{
+    background-color: var(--blue);
+    cursor: pointer;
+    color: var(--gray);
+  }
+  .recent-order{
+    width: 500px;
+    height: 100vw;
+    }
+  .recent-order h1{
+  background-color: var(--gray);
+  color: var(--blue);
+  font-family: sans-serif;
+  position: relative;
+  left: 130px;
+  margin-top: 60px;
+  }
+  
+  .recent-order .view-all{
+    margin-top: 10px;
+    margin-left: 190px;
+    font-family: sans-serif;
+    font-weight: 800;
+    background-color:var(--gray);
+    color: var(--blue);
+    padding: 5px 15px;
+  }
+  .recent-order .view-all:hover{
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+  }
+  table{
+    background-color: red;
+    margin-left: 50px;
+    width: 400px;
+    background-color: var(--white);
+    font-family: sans-serif;
+    margin-top:40px;
+  
+  }
+  th{
+    text-align: start;
+    background-color: var(--blue);
+  }
+  td{
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 10px;
+  }
+  table td[class="td-color-green"]{
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+  }
+  table td[class="td-color-red"]{
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+  }
+  table td[class="td-color-orange"]{
+    text-align: center;
+    background-color: orangered;
+    cursor: pointer;
+  }
+  table td[class="td-color-sky"]{
+    text-align: center;
+    background-color: var(--blue);
+    cursor: pointer;
+  }
+  .recent-customer-leftbar{
+    background-color:var(--gray);
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 450px;
+  }
+  .recent-customer-leftbar h6{
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 200px;
+  color: var(--blue);
+  font-weight: 900;
+  }
+  
+  .recent-customer-leftbar .customer-data{
+    background-color: green;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 5px;
+    }
+  
+    .recent-customer-leftbar .country{
+      background-color: red;
+      position: relative;
+      left: 150px;
+      text-align: start;
+      padding: 5px;
+    }
+    }
